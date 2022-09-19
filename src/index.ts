@@ -1,5 +1,3 @@
-const calc = (a: number, b: number) => {
-  return a - b 
-}
+const calc = (a: number, b: number): number => a - b
 
-console.log(calc(1024, 28));
+console.log(calc(1024, 28))
