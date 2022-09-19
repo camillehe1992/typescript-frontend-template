@@ -10,7 +10,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: './tsconfig.json'
+    project: 'tsconfig.json',
+    // add root dir of tsconfig.json to fix the config file not found issue
+    tsconfigRootDir: __dirname
   },
   plugins: ['@typescript-eslint', 'prettier'],
   rules: {

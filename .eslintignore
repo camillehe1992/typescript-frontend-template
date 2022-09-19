@@ -1,0 +1,8 @@
+.eslintrc.cjs
+/node_modules
+/dist
+/src/assets/js
+/src/views
+/package-lock.json
+.DS_Store
+vue.config.js
