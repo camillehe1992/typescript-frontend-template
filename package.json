@@ -1,0 +1,31 @@
+{
+  "name": "typescript-frontend-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "dist/types/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "npm run clean && tsc",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camillehe1992/typescript-frontend-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camillehe1992/typescript-frontend-template/issues"
+  },
+  "homepage": "https://github.com/camillehe1992/typescript-frontend-template#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  }
+}
